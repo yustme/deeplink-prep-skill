@@ -1,0 +1,7 @@
+{
+  "name": "deeplink-podcast-prep",
+  "displayName": "Deeplink Podcast Prep",
+  "version": "1.0.0",
+  "description": "Prepare a guest to answer well on the Deeplink Show. From the host's question doc it builds one Artifact prep brief — per question: talking points, verified facts, callbacks to earlier episodes, and a soundbite.",
+  "keywords": ["podcast", "interview", "prep", "deeplink"]
+}

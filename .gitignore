@@ -1,0 +1,12 @@
+.DS_Store
+*.log
+
+# local input / research material — not part of the skill
+transcripts/
+deeplink-analyza.*
+deeplink-prep-*.html
+*-brief.html
+__pycache__/
+.pytest_cache/
+*.pyc
+.claude/

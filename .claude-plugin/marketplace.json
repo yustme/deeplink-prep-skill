@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "deeplink-prep",
+  "description": "Prep tools for the Deeplink Show podcast.",
+  "owner": { "name": "Deeplink Prep" },
+  "plugins": [
+    {
+      "name": "deeplink-podcast-prep",
+      "source": "./plugins/deeplink-podcast-prep",
+      "description": "Prepare a guest to answer well on the Deeplink Show — for each host question: talking points, verified facts, callbacks to earlier episodes, and a soundbite.",
+      "keywords": ["podcast", "interview", "prep", "deeplink"]
+    }
+  ]
+}
