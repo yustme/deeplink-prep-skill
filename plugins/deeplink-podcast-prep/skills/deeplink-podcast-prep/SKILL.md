@@ -59,8 +59,10 @@ Read these as needed:
    skill if available to calibrate design), then deliver it in whichever way lets the guest review it
    best. Offer both and let the user choose (see "Output & delivery" below):
    - **Hosted Artifact** — publish via the Artifact tool; a shareable link, opens on any device.
-   - **Local web server** — write the HTML to a file and serve it locally (e.g.
-     `python3 -m http.server` in that dir), then give the user the `http://localhost:PORT/…` URL.
+   - **Local web server** — write the HTML to a file and serve it locally, bound to localhost
+     only (e.g. `python3 -m http.server --bind 127.0.0.1` in that dir — the brief may contain
+     private material and must not be visible to the LAN), then give the user the
+     `http://localhost:PORT/…` URL.
    If one path isn't available in the current environment (no Artifact tool, or no shell), use the
    other rather than failing.
 
@@ -81,8 +83,8 @@ The deliverable is one **self-contained HTML page** (same content regardless of 
 - **Delivery modes:**
   - *Artifact* — publish the file with the Artifact tool; report the link.
   - *Local server* — write the file (a temp/working dir is fine), start a simple static server in
-    that directory, and report the local URL. Mention how to stop it. This is handy for reviewing
-    privately or when Artifact hosting isn't available.
+    that directory **bound to 127.0.0.1** (never all interfaces), and report the local URL. Mention
+    how to stop it. This is handy for reviewing privately or when Artifact hosting isn't available.
 
 ## Guardrails
 

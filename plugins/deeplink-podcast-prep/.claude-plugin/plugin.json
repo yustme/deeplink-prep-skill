@@ -1,7 +1,12 @@
 {
+  "$schema": "https://www.schemastore.org/claude-code-plugin-manifest.json",
   "name": "deeplink-podcast-prep",
   "displayName": "Deeplink Podcast Prep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prepare a guest to answer well on the Deeplink Show. From the host's question doc it builds one Artifact prep brief — per question: talking points, verified facts, callbacks to earlier episodes, and a soundbite.",
+  "author": { "name": "Vojta Tůma" },
+  "homepage": "https://github.com/yustme/deeplink-prep-skill",
+  "repository": "https://github.com/yustme/deeplink-prep-skill",
+  "license": "MIT",
   "keywords": ["podcast", "interview", "prep", "deeplink"]
 }
