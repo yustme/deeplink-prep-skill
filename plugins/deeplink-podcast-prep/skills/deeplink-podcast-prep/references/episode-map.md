@@ -3,13 +3,13 @@
 Distilled map of every past Deeplink Show episode, baked in so the skill can tell a guest **where a
 topic was already discussed** ("to jste, Filipe, probírali v díle 9, když jste se bavili o…").
 Regular hosts: **Filip** (vývojář, kanál „AI s rozumem") a **Jindra/Jindřich** (produkťák ve
-fintechu). Guests appear only in the S-series (S01–S03).
+fintechu). Guests appear only in the S-series (S01–S04).
 
 **How to use:** first scan the **Topic index** below to find candidate díly for a question's topic,
 then open that episode's detail for the exact angle + a memorable moment to cite. Prefer 1–2 strong,
 genuinely-related callbacks over a long weak list.
 
-⚠️ Coverage note: catalog covers ep00–ep19 + S01–S03 (as of skill build). Episodes released later
+⚠️ Coverage note: catalog covers ep00–ep21 + S01–S04 (updated 2026-07). Episodes released later
 won't be here — if a topic feels like it must have been covered but isn't listed, say so rather than
 inventing a díl number.
 
@@ -17,33 +17,43 @@ inventing a díl number.
 
 ## Topic index (téma → díly)
 
-- **Vibe coding / stavění appek bez kódu:** 1, 17, 8, 9, S02, S01
+- **Vibe coding / stavění appek bez kódu:** 1, 17, 8, 9, S02, S01, S04
 - **Jak vůbec začít s AI / vibe codingem (pro netechnické):** 15, 17, 5
 - **Prompt engineering / jak psát prompty:** 5, 15, 17
-- **Kontext, kontextové okno, context engineering, paměť, knowledge base:** 18, 5, 8
-- **AI agenti / agentic / autonomní agenti na počítači (OpenClaw):** 4, 8, 9, 10
-- **MCP servery:** 1, 4, 5, 8, 17, 18
-- **Kódovací asistenti (Claude Code, Cursor, Copilot) / lepší vývojář:** 8, 17, 15, S01
+- **Kontext, kontextové okno, context engineering, paměť, knowledge base:** 18, 5, 8, S04
+- **AI agenti / agentic / autonomní agenti na počítači (OpenClaw):** 4, 8, 9, 10, 21, 20
+- **MCP servery:** 1, 4, 5, 8, 17, 18, 20
+- **Kódovací asistenti (Claude Code, Cursor, Copilot) / lepší vývojář:** 8, 17, 15, S01, 20
 - **Produktový management s AI:** 9
 - **AI ve zdravotnictví / longevity / diagnostika:** 3, 6, S03
-- **České AI startupy / scéna:** 6, S01, S02, S03
+- **České AI startupy / scéna:** 6, S01, S02, S03, S04
 - **Generování obrázků:** 7
-- **Generování videa / 3D / audio (Sora, Veo, Suno):** 7, 15
-- **Deepfakes / etika / temná strana AI / podvody:** 2, 12
+- **Generování videa / 3D / audio (Sora, Veo, Suno):** 7, 15, 20
+- **Deepfakes / etika / temná strana AI / podvody:** 2, 12, 20
 - **Autonomní vozy:** 13
-- **Historie AI (Turing → transformery → AGI):** 14
+- **Historie AI (Turing → transformery → AGI) / milníky novodobé AI:** 14, 20
 - **Základy AI / jak funguje jazykový model / bezstavovost:** 15, 5, 18
-- **Anthropic / Claude jako firma:** 11
-- **Cena AI / zdražování / tokeny / usage-based pricing:** 16, 5, S02, S01
-- **Halucinace:** 15, 19, 5, 2
+- **Anthropic / Claude jako firma:** 11, 21, 20
+- **Cena AI / zdražování / tokeny / usage-based pricing:** 16, 5, S02, S01, 20
+- **Halucinace:** 15, 19, 5, 2, S04
 - **Mýty o AI / vědomí / bias / odposlouchávání:** 19
-- **Nahrazení práce / budoucnost profesí / rekvalifikace:** 19, 12, 8, S02
+- **Nahrazení práce / budoucnost profesí / rekvalifikace:** 19, 12, 8, S02, S04, 21
 - **Garbage in / garbage out / kvalita a role dat:** 5, 15
-- **Regulace / GDPR / AI Act / soukromí:** 2, 19, S03
+- **Regulace / GDPR / AI Act / soukromí:** 2, 19, S03, 21, S04
 - **Scraping dat / obrana proti scrapingu / Apify:** 4, 6, 9
-- **Zakládání startupu / fundraising / exity / SaaS pricing:** S01, S02, 6
+- **Zakládání startupu / fundraising / exity / SaaS pricing:** S01, S02, 6, S04
 - **AI při cestování:** 10
 - **Konference / San Francisco / Berkeley / integrace AI do firem:** 12
+- **Geopolitika AI / vlády a regulace modelů / zákazy / studená válka o AI:** 21, 20, 11
+- **Kyberbezpečnost / zranitelnosti / zero day / bug bounty:** 21, 6, 4
+- **Ověřování identity / KYC / identita AI agentů:** 21
+- **Učení a vzdělávání s AI / školství / diplomky:** S04, 19
+- **Efektivní učení / paměť / testování / spaced repetition:** S04
+- **Kognitivní atrofie / offloading / dopad AI na mozek:** S04
+- **NotebookLM / studijní nástroje:** S04, 20, 15
+- **Diktování / voice input (Whisper Flow, SuperWhisper) / hlasoví asistenti:** S04, 9, 17, 20
+- **Robotika / humanoidní roboti:** 20
+- **Čipy / datacentra / energetika AI:** 16, 20, 21
 
 ---
 
@@ -189,6 +199,20 @@ inventing a díl number.
 - **Zapamatovatelné momenty / citace:** „prakticky je nemožný, že by nás telefony odposlouchávaly"; „když máš doma hodně popelníků, zvyšuje se pravděpodobnost rakoviny" (korelace vs. kauzalita); „představte si chatbota jako člověka — extrémně chytrej, má o spoustě věcí pravdu, ale někdy kecá"
 - **Keywords:** myty-ai, odposlouchavani, cilena-reklama, confirmation-bias, korelace, kauzalita, eliza-efekt, trenink-dat, gdpr, ai-act, pamet-modelu, halucinace, emoce, vedomi, sykofancie, emergentni-vlastnosti, westworld, bias, compas, vyhledavani, nahrazeni-prace, mckinsey, nove-profese
 
+### Díl 20 — Milníky novodobé AI (speciál k jubilejnímu dílu)
+- **Host(s)/guest:** Filip a Jindra (Jindřich); bez externího hosta — poprvé natáčeno naživo ve studiu Kulich v Litomyšli
+- **O čem díl je (1 věta):** Jubilejní 20. díl — retrospektiva milníků novodobé AI od GitHub Copilota a Midjourney přes ChatGPT, reasoning a MCP až po agenty, OpenClaw a kauzu Fable, plus reflexe prvních 19 dílů podcastu.
+- **Probíraná témata:** reflexe podcastu (proč ho dělají, hosté, cíl 20 dílů, ~5 potvrzených hostů dopředu); před-ChatGPT éra (GitHub Copilot při live-codingu na UHK, Midjourney přes Discord, diffusion modely); ChatGPT růst (100 mil. uživatelů za 2 měsíce, milion za 5 dní; 2026 už miliarda registrovaných); rané limity (vymyšlené shrnutí článku z URL) a AutoGPT jako předčasný pokus o agenta; deepfakes 2023 (papež v péřovce Balenciaga, syntetický Drake/Weeknd); „Will Smith jí špagety" jako benchmark videogenerátorů; tool use — web search, code interpreter; multimodalita (screenshoty, nastavení kamery ve studiu podle fotek); příchod Gemini; odvolání a návrat Sama Altmana (745/770 zaměstnanců hrozilo odchodem, role Microsoftu); 2024: Cursor a agentické IDE (a zpráva o akvizici za ~900 mil. $), dotované tokeny vs. ekonomika API billing; Sora a videomodely; AI slop a autonomní YouTube kanály přes n8n; Nobelovy ceny Hinton (fyzika) a Hassabis (AlphaFold); vznik MCP („USB pro AI asistenta", open standard přejatý OpenAI i Googlem); ChatGPT hlasový asistent (latence ~320 ms, skákání do řeči) a chybějící hlas v Claude Code; AI Overviews a „lepidlo na pizzu"; NotebookLM (podcasty z vlastních zdrojů, čeština, příprava na kapitánské zkoušky, příprava dílů podcastu); podzim 2024 reasoning/thinking (strawberry, „přemýšlej krok za krokem") a vyřešení 80 let starého Erdősova matematického problému; 2025: šok DeepSeek (čínský open-weight), projekt Stargate (500 mld. $), Karpathyho tweet o vibe codingu, release Claude Code (únor 2025), agentic coding a predikce plné automatizace codingu do 2030; OpenClaw vlna (Peter Steinberger, vyprodaná Mac Mini, soul.md, gateway do chat aplikací, přejmenování Claude Bot → Mold Bot → OpenClaw, zákaz Anthropic subscription, nástupce Hermes); kauza Mythos/Fable (Glasswing, guardrails přesměrující na Opus 4.8 bez oznámení, 2× vyšší cena); valuace Anthropic 965 mld. $, OpenAI kolo 122 mld. $; úzké hrdlo čipů a energie (Anthropic ~3 Temelíny, pronájem Colossu od SpaceX); robotika (Tesla Optimus, robot Neo za 499 $/měs. s tele-operátorem); syntetická data a modely trénující/vylepšující samy sebe
+- **Zapamatovatelné momenty / citace:** AI Overviews radilo „dej si lepidlo na pizzu, ať se sýr hezky táhne"; „prodávej lopaty ve zlatý horečce" (kdo vydělává na AI boomu); agent poslal přítelkyni hlasovku „ahoj, já jsem Filipův agent homunculus a jsem hodnej, neškodnej"; ChatGPT překonalo miliardu registrovaných uživatelů; k automatizaci codingu do 2030: „jsme tam dneska skoro"
+- **Keywords:** milniky-ai, retrospektiva, historie-novodobe-ai, chatgpt, github-copilot, midjourney, deepfake, papez-v-perovce, will-smith-spagety, tool-use, web-search, code-interpreter, multimodalita, sam-altman, cursor, sora, ai-slop, n8n, nobelova-cena, hinton, hassabis, alphafold, mcp, hlasovy-asistent, ai-overviews, notebooklm, reasoning, thinking, erdos, deepseek, stargate, vibe-coding, claude-code, openclaw, peter-steinberger, mac-mini, hermes, fable, mythos, glasswing, valuace, cipy, energetika, temelin, robotika, tesla-optimus, neo-robot, synteticka-data, studio-kulich
+
+### Díl 21 — Fable a Mythos: nejsilnější AI model vyšel a za tři dny ho vláda zakázala
+- **Host(s)/guest:** Filip a Jindra (Jindřich); bez externího hosta
+- **O čem díl je (1 věta):** Rozbor bezprecedentního příběhu, kdy Anthropic vydal svůj nejsilnější model Fable 5 a americká vláda tři dny nato nařídila zakázat ho ne-americkým uživatelům — a co to znamená pro geopolitiku AI.
+- **Probíraná témata:** Mythos jako uzavřená třída modelů nad Opusem (projekt Glasswing, ~150 vybraných firem — Amazon, Google, Mozilla, Stripe); Fable 5 = Mythos s guardrails pro veřejnost; kauza skrytého přesměrování citlivých dotazů na Opus 4.8 bez oznámení; autonomie jako hlavní přednost (úkol "chroupe celou noc"); direktiva americké vlády (jen američtí občané, dopad i na zaměstnance Anthropicu) a úplné vypnutí modelu; Mozilla pen-testy (270 zranitelností), Stripe migrace 50M řádků Ruby za hodiny; nález Zero Day zranitelnosti v Apple M5 čipu jako pravděpodobný trigger paniky; návaznost na spor Anthropic × Pentagon (supply chain risk, autonomní zbraně, sledování obyvatel); AI jako strategický aset a paralela se studenou válkou / závodem o vesmír; OpenAI a pozastavení public release GPT 5.6 (modely Luna/Terra/Sol); dopad na Evropu (Apple Intelligence a regulace, Mistral); KYC v podmínkách Anthropicu a ověřování identity; ID/registrace AI agentů a decentralizované sítě agentů jako protipól; budoucnost bug bounty programů; AI Gigafactory v ČR (Zbraslav, České radiokomunikace, státní zmocněnec pro AI Lukáš Kačena) a superpočítače IT4Innovations (Karolina); timeline: preview duben, release 9. 6., zákaz 12. 6.
+- **Zapamatovatelné momenty / citace:** „Tenhleten model nesmíte zpřístupnit uživatelům mimo Ameriku"; „najednou máš velké korporace, který k tomu mají přístup, ale nikdo jinej se k tomu nedostane"; „kde budem za dva roky, jako kde budem za tři roky?"; Filip vydal video o Fablu a den nato byl model zaříznutý
+- **Keywords:** fable, mythos, anthropic, zakaz-modelu, americka-vlada, geopolitika, glasswing, opus-4.8, guardrails, autonomie, zero-day, apple-m5, kyberbezpecnost, pentagon, supply-chain-risk, studena-valka, kyc, overeni-identity, id-agentu, bug-bounty, ai-gigafactory, mistral, regulace, openai-gpt-56
+
 ### S01 — Jiří Štěpánek: od pohřebního startupu k AI produktu pro produktová data
 - **Host/guest:** Filip (host) × Jiří Štěpánek
 - **Kdo je host (1 věta):** Sériový podnikatel a Forbes 30 pod 30, zakladatel online pohřební služby Goodbye.cz a spoluzakladatel AI studia Startup Bandits s produktem LASO pro obohacování produktových dat e-shopů.
@@ -212,3 +236,11 @@ inventing a díl number.
 - **Probíraná témata:** cesta z pardubické průmyslovky přes STRV k cold-emailování US klientů; geoarbitráž (8000 $/měsíc) financovala rozjezd; Silicon Valley jako sled bublin (krypto → AI); přechod z product designu do CEO (70 % resources/lidi/investoři, 30 % produkt); dvě meaningful verze týdně, testování na produkci; automatický import krevních testů napříč evropskými jednotkami; architektura „konverzace tří" — uživatel, agent s 24 tooly, kontrolní model; deterministický Macromo engine na ověřené literatuře vs. halucinující LLM; GDPR a citlivá data (93stránkové PDF od právníků); 160 (brzy 250) odběrových míst, výsledky do 2 hodin; team 15 lidí, desítky tisíc uživatelů; performance marketing (1600 videí týdně, běžecký event pro 750 lidí); longevity scéna (Brian Johnson, Huberman, kniha Outlive) a mýtus zázračných suplementů; mikroplasty; 20letá vize AI lékaře a posun z prevence do diagnostiky
 - **Zapamatovatelné momenty / citace:** „v naší nové my generujem 99 % kódu"; „2 třetiny našich uživatelů jsou obézní a mají náběh na kardiometabolický syndrom"; „co jiného si zaplatit než to, abych byl zdravej?"
 - **Keywords:** macromo, longevity, prevence, healthtech, ai-lekar, product-design, ceo, startup, silicon-valley, krevni-testy, dna, wearables, macromo-engine, llm-halucinace, gdpr, mikroplasty, brian-johnson, huberman, suplementy, geoarbitraz, b2c
+
+### S04 — Jan Kohut: efektivní učení s AI — proč to musí (trochu) bolet
+- **Host/guest:** Filip (host) × Jan (Honza) Kohut
+- **Kdo je host (1 věta):** Zakladatel webu Jakserychlenaucit.cz (pomohl přes milionu studentů), lektor efektivního učení (přednášel na ČVUT, UK, v Microsoftu i Samsungu) a zakladatel aplikace Kontexta — AI asistenta na psaní diplomek a bakalářek.
+- **O čem díl je (1 věta):** Jak AI mění vzdělávání — kdy učení s AI skutečně funguje (testování, otázky, brain-first) a kdy vede ke kognitivní atrofii, plus budoucnost diplomek a role učitele.
+- **Probíraná témata:** Honzova cesta (trojka ve třetí třídě → červený diplom díky metodám učení; blog od střední, nikdy zaměstnaný); žádoucí nesnáze (desirable difficulties) — učení musí bolet, AI nesmí sebrat kognitivní zátěž; hyperkorekční efekt a testování/vybavování jako nejúčinnější metoda; Feynmanova technika (protégé effect, vysvětlování u tabule); Bloomova taxonomie v promptech; NotebookLM jako doporučený nástroj (source-grounded, kartičky, kvízy, podcasty — dobré jen na high-level úvod); Anki a spaced repetition; české studijní appky (Studify, Astra AI, Edustudero); multitasking a zbytková pozornost (učení při řízení/vaření +40–50 % času); MIT studie o psaní esejí s ChatGPT (nižší zapojení mozku a neurální konektivita, „naučí zlenivět"); brain-first approach a diktování promptů (Whisper Flow, SuperWhisper, Útěro); AI jako násobitel schopností (junioři vs. senioři, prompt s pojmem OCR); halucinace — obranou jsou vlastní vědomosti, kritické myšlení bez znalostí nefunguje; diplomky/bakalářky s AI (co školy povolují, detekce AI nefunguje + GDPR, signalizační funkce VŠ, důraz na obhajobu a praktickou část); role učitele jako mentora/psychologa, konec frontální výuky, mýtus stylů učení; vibe-codované výukové hry (Makali na základce); kontextové okno free ChatGPT a context engineering pro studenty; Kontexta (profil, citační normy, fine-tuning na odborný text, trenér obhajoby; konkurence okopírovala produkt i s chybou)
+- **Zapamatovatelné momenty / citace:** „Učení s AI nebolí míň. Bolí jenom jinak."; „AI je násobitelem našich schopností a dovedností"; „z hovna bič neupleteš" — bez vlastních znalostí tě AI svede na scestí; ChatGPT „tě naučí zlenivět" (MIT studie); konkurence zkopírovala Kontextu 1:1 i se schválně nezmíněnou chybou v profilu
+- **Keywords:** uceni, vzdelavani, efektivni-uceni, jan-kohut, desirable-difficulties, testovani, spaced-repetition, anki, notebooklm, feynmanova-technika, bloomova-taxonomie, kognitivni-atrofie, cognitive-offloading, mit-studie, brain-first, diktovani, whisper-flow, diplomky, bakalarky, detekce-ai, kontexta, studify, role-ucitele, skoly, multitasking, halucinace, kriticke-mysleni
