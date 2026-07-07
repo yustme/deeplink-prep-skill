@@ -6,6 +6,7 @@ transcripts/
 deeplink-analyza.*
 deeplink-prep-*.html
 *-brief.html
+.venv/
 __pycache__/
 .pytest_cache/
 *.pyc
